@@ -7,7 +7,7 @@
  */
 function calcFsactorial( $x ) {
 
-	if ( $x == 0 ) { // Base case
+	if ( 0 == $x ) { // Base case
 		return 1;
 	}
 	return $x * calcFsactorial( $x - 1 ); // Recursive call
