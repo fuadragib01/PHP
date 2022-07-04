@@ -90,7 +90,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word2 );
 		printWord( $result_array );
 		$readonly2 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if (  5 === $result_array[5] ) {
 			$readonly1 = $readonly3 = $readonly4 = $readonly5 = $readonly6 = 'readonly';
 		}
 		echo "<br>";
@@ -101,7 +101,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word3 );
 		printWord( $result_array );
 		$readonly3 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if ( 5 === $result_array[5] ) {
 			$readonly2 = $readonly1 = $readonly4 = $readonly5 = $readonly6 = 'readonly';
 		}
 		echo "<br>";
@@ -112,7 +112,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word4 );
 		printWord( $result_array );
 		$readonly4 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if ( 5 === $result_array[5] ) {
 			$readonly2 = $readonly3 = $readonly1 = $readonly5 = $readonly6 = 'readonly';
 		}
 		echo "<br>";
@@ -123,7 +123,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word5 );
 		printWord( $result_array );
 		$readonly5 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if ( 5 === $result_array[5] ) {
 			$readonly2 = $readonly3 = $readonly4 = $readonly1 = $readonly6 = 'readonly';
 		}
 		echo "<br>";
@@ -134,7 +134,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word6 );
 		printWord( $result_array );
 		$readonly6 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if ( 5 === $result_array[5] ) {
 			$readonly2 = $readonly3 = $readonly4 = $readonly5 = $readonly1 = 'readonly';
 		}
 		echo "<br>";
