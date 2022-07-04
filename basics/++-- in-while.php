@@ -4,7 +4,6 @@
  * need to be very careful when handle it
  */
 
-
 $j = 1;
 
 while ( ++$j < 10 ) {
@@ -12,6 +11,7 @@ while ( ++$j < 10 ) {
 }
 
 echo "\n";
+
 $j = 1;
 
 while ( $j++ < 10 ) {

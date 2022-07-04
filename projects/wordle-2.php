@@ -1,5 +1,13 @@
 <?php
 /**
+ * word guessing game: wordle
+ * main game url: https://www.nytimes.com/games/wordle/index.html
+ * final code without any frontend styel. 
+ * look is not designed yet.
+ */
+
+
+/**
  * Array of 100 words from where a random word will set for users to play the Guess Word Game
  * @return string   $words[$index]           The word to find
  */
@@ -79,7 +87,7 @@ if ( isset( $_POST['try_btn'] ) ) {
 		$result_array = checkTheWord( $word_array, $user_word1 );
 		printWord( $result_array );
 		$readonly1 = 'readonly';
-		if ( $result_array[5] === 5 ) {
+		if ( 5 === $result_array[5] ) {
 			$readonly2 = $readonly3 = $readonly4 = $readonly5 = $readonly6 = 'readonly';
 		}
 		echo "<br>";

@@ -1,3 +1,4 @@
+<?php
 // switch
 $x = "2fuad";
 
