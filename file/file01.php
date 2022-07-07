@@ -1,6 +1,6 @@
 <?php
 echo getcwd();
-$path = "E:\\PHP\\file\\solar.txt";
+$path = "E:\\PHP\\file\\text01.txt";
 if ( is_readable( $path ) ) {
     $fp = fopen( $path, 'r' );
 
