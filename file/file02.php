@@ -20,4 +20,5 @@ if ( is_writable( $path ) ) {
 
     // Open file in append 'a' mode
     $fp = fopen( $path, 'a' );
+    fclose( $fp );
 }

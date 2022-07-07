@@ -57,4 +57,5 @@ if ( is_readable( $path ) ) {
 
     $data = file_get_contents( $path ); // This reads all data from file, as it appear in the file.
     echo $data;
+    fclose( $fp );
 }
