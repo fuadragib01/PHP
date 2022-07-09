@@ -1,0 +1,1 @@
+a:3:{i:0;a:5:{s:5:"fname";s:4:"Fuad";s:5:"lname";s:5:"Ragib";s:3:"age";s:2:"30";s:5:"class";s:3:"CSE";s:4:"roll";s:4:"2259";}i:2;a:5:{s:5:"fname";s:5:"Fahad";s:5:"lname";s:5:"Nasif";s:3:"age";s:2:"15";s:5:"class";s:1:"8";s:4:"roll";s:4:"2351";}i:3;a:5:{s:5:"fname";s:7:"Tahmida";s:5:"lname";s:5:"Nazia";s:3:"age";s:2:"21";s:5:"class";s:7:"Zoology";s:4:"roll";s:4:"2459";}}
