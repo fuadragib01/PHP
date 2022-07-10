@@ -2,7 +2,7 @@
 /*
  * This code will remove an item from an array, if the item exist in the array.
  * This solution is case sensitive.
- * This can be solveed for case insensitivity too.
+ * This can be resolved for case insensitivity too.
  */
 
 /*
