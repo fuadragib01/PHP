@@ -34,6 +34,11 @@ class HexToRGB {
 
     private function perseColor() {
         if ( $this->color ) {
+            // $colors = sscanf( $this->color, "%02x%02x%02x" );
+            // $this->r = $colors[0];
+            // $this->g = $colors[1];
+            // $this->b = $colors[2];
+            // Short solution of above 4 lines of code
             list( $this->r, $this->g, $this->b ) = sscanf( $this->color, "%02x%02x%02x" );
         }else {
             list( $this->r, $this->g, $this->b ) = array( 0, 0, 0 );
