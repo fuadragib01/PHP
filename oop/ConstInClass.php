@@ -7,7 +7,7 @@ echo HELLO;
 
 // in class
 
-class MyClass {
+class ConstInClass {
     const CITY = "Dhaka";
     function sayHi() {
         echo "\nHi from " . self::CITY;
@@ -15,9 +15,9 @@ class MyClass {
     }
 }
 
-$m = new MyClass();
+$m = new ConstInClass();
 // echo $m->CITY; // This is not valid
 
 echo $m::CITY;
-echo MyClass::CITY;
+echo ConstInClass::CITY;
 $m->sayHi();
