@@ -7,6 +7,6 @@
        global $c, $a; // here $a will come from global scope, not the local $a
        return $c = ( $b + $a );
    }
-   print $a;
-   print x( 40 ) + $c;
+   
+   print x( 40 ) + $c; // output is 120, not 140
 ?>
